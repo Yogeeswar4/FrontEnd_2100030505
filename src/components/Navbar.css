@@ -1,0 +1,91 @@
+/* Navbar container */
+.navbar {
+    background-color: green; /* Dark background color */
+    padding: 10px;
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+}
+
+/* Navbar list */
+.navbar-nav {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+/* Navbar item */
+.nav-item {
+    margin-right: 10px;
+}
+
+/* Navbar link */
+.nav-link {
+    color: #fff; /* White color for links */
+    text-decoration: none;
+    padding: 8px 12px; /* Padding around the links */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+/* Navbar link hover */
+.nav-link:hover {
+    background-color: orange; /* Darker background color on hover */
+}
+
+/* Active link */
+.nav-link.active {
+    background-color: #007bff; /* Blue background color for active link */
+}
+
+/* Dropdown container */
+.dropdown {
+    position: relative;
+}
+
+/* Dropdown content */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9; /* Light background color */
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Dropdown content links */
+.dropdown-content a {
+    color: #333; /* Dark color for dropdown links */
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+/* Dropdown content links hover */
+.dropdown-content a:hover {
+    background-color: #ddd; /* Darker background color on hover */
+}
+
+/* Show dropdown content on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Navbar button */
+.navbar-btn {
+    background-color: #007bff; /* Blue background color */
+    color: #fff; /* White text color */
+    border: none; /* No border */
+    padding: 8px 12px; /* Padding around the button */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+    font-size: 20px; /* Increased font size */
+}
+
+/* Navbar button hover */
+.navbar-btn:hover {
+    background-color: #0056b3; /* Darker blue background color on hover */
+}

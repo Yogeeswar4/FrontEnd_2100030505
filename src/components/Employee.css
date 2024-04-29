@@ -1,0 +1,114 @@
+/* Employee.css */
+/* Employee.css */
+
+/* Close button */
+.close-button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.close-button:hover {
+  background-color: #c82333;
+}
+
+/* Odd row */
+.employee-table tr:nth-child(odd) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Even row */
+  .employee-table tr:nth-child(even) {
+    background-color: #e6e6e6;
+  }
+  
+  /* Hover effect */
+  .employee-table tr:hover {
+    background-color: #cceeff;
+  }
+  
+/* Employee list container */
+.employee-container {
+  margin-top: 20px;
+}
+
+/* Employee table */
+.employee-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Table header */
+.employee-table th {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  text-align: left;
+}
+
+/* Table data */
+.employee-table td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Edit and delete buttons container */
+.action-buttons {
+  display: flex;
+  gap: 10px; /* Add space between buttons */
+}
+
+/* Edit button */
+.edit-button {
+  background-color: #ffc107;
+  color: #212529;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-decoration: none; /* Remove default link underline */
+}
+
+/* Edit button hover */
+.edit-button:hover {
+  background-color: #e0a800;
+}
+
+/* Delete button */
+.delete-button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Delete button hover */
+.delete-button:hover {
+  background-color: #c82333;
+}
+
+/* Add employee link */
+.add-employee-link {
+  display: block;
+  margin-top: 20px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #28a745;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+/* Add employee link hover */
+.add-employee-link:hover {
+  background-color: #218838;
+}
